@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prva forma</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="" style="background:rgb(223, 226, 223);width: 300px;padding: 5px;">
+            <fieldset>
+                <legend>My first form</legend>
+                <label for="txtFName" >First name: </label>
+                <input id="txtFName" type="text" name="fname" placeholder="Marko" style="width:170;"><br/>
+                <label for="txtLName">Last name: </label>
+                <input id="txtLName" type="text" name="lname" placeholder="Markovic" style="width:171;"><br/>
+                <label for="password">Password: </label>
+                <input id="password" type="password" name="password" style="width:174px;"><br/>
+                <label for="mail">E-mail: </label>
+                <input id="mail" type="email" name="mail" placeholder="no-reply@something.com" style="width:192px;"><br/><hr>
+                <label>Gender: </label><br/>
+                <input type="radio" name="gender" value="male" checked> Male<br/>
+                <input type="radio" name="gender" value="female"> Female<br/>
+                <label>Select Course: </label>
+                <select name="Course">
+                    <option name="ASP">ASP.NET MVC</option>    
+                    <option name="Angular">Angular</option>
+                    <option name="Spring">Spring</option>
+                </select> <br/> <hr>
+                <textarea rows="15" style="width: 97%;">Write your comments here...</textarea> <br/><hr>
+                <label for="training">Training: </label><br/>
+                <input type="checkbox" name="training"> Elementary<br/>
+                <input type="checkbox" name="training"> Advanced<br/>
+                <input type="checkbox" name="training"> Proficiency<br/><hr>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+
+        </form>
+
+    </body>
+</html>
