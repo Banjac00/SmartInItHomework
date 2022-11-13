@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+}
+
+
+body { 
+  background-image: url("resursi/background.jpg");
+  height: 100%;
+
+}
+
+.content {
+  border: 2px solid black;
+  background: whitesmoke;
+  border-radius: 20px;
+  position: relative;
+  height: 500px;
+  width: 1000px;
+  top: 78px;
+  left: 450px;
+
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  display: felx;
+  background: DarkSlateGray;
+  height: 45px;
+  text-indent: 20px;
+
+
+}
+
+.divudivu {
+  position: relative;
+    bottom: 425px;
+    float: left;
+    width: 300px;
+    margin: 30px;
+    border: 2px solid black;
+    background: white;
+    padding: 20px;
+}
+
+.slike {
+  width: 200px;
+  text-align: center;
+
+
+}  
+
+
+/*a {
+list-style: none;
+text-decoration: none;
+color: black;
+}*/
+
+.nav a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+h2 {
+  padding: 20px;
+  text-decoration: underline;
+
+}
+
+i {
+ position: relative;
+    top: 335px;
+    padding: 10px;
+}
+
+li {
+  float: left;
+  font-family: serif;
+  padding: 5pxs;
+}
+
+h1 {
+  text-decoration: underline;
+  color: white;
+
+}
+
+.divudivu a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.login {
+  padding: 10px;
+}
+
+.login label {
+  color: white;
+}
+
+.alexis img {
+  width: 300px;
+  border: 2px solid black;
+  background: white;
+  padding: 20px;
+  position: relative;
+  left: 35px;
+  top: 60px;
+}
+
+.alexis-content {
+  border: 2px solid black;
+  background: whitesmoke;
+  border-radius: 20px;
+  position: relative;
+  height: 500px;
+  width: 900px;
+  left: 450px;
+  bottom: 150px;
+  padding: 3px;
+}
+
